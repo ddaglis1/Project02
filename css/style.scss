@@ -2,4 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 $font-stack:    Bangers, sans-serif;
+$primary-color: #33ff33; 
+$button: #ff0080;
+$navbar: #000000; 
+
+.header-primary{
+    h1{
+    font-size: 72px;
+    color: white;
+    margin-top: 0;
+    z-index: 99;
+    width: 100;
+    display: inline-flex;
+    padding-left: 5%;
+    padding-top: 5px;
+    }
+    .nav-primary {
+        background-color: $navbar;
+    
+        ul {
+          margin: 0;
+          padding-right: 5%;
+          list-style: none;
+          float: right;
+          margin-top: 25px;
+           
+        }
+      
+        li { 
+        display: inline-flex;
+        padding-right: 50px;
+    }
+    
+      
+        a {
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+        }
+        a:hover{
+            background-color: $button
+        }
+      }
+}
+
 

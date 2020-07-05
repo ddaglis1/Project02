@@ -1,2 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.header-primary h1 {
+  font-size: 72px;
+  color: white;
+  margin-top: 0;
+  z-index: 99;
+  width: 100;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 5%;
+  padding-top: 5px;
+}
+
+.header-primary .nav-primary {
+  background-color: #000000;
+}
+
+.header-primary .nav-primary ul {
+  margin: 0;
+  padding-right: 5%;
+  list-style: none;
+  float: right;
+  margin-top: 25px;
+}
+
+.header-primary .nav-primary li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 50px;
+}
+
+.header-primary .nav-primary a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.header-primary .nav-primary a:hover {
+  background-color: #ff0080;
+}
 /*# sourceMappingURL=style.css.map */
