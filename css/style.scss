@@ -48,4 +48,53 @@ $navbar: #000000;
       }
 }
 
+body {
+  font: 22pt $font-stack;
+  background-color: $primary-color;
+  
+}
+
+.container{
+    width: 100%;
+}
+  .button-primary {
+      background-color: $button;
+      color: white;
+      width: 10%;
+      height: 55px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: 45%;
+      margin-right: 45%;
+     
+    
+  }
+
+
+ #search-input{
+    text-align: center;
+    border: black;
+    width: 70%;
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+ }  
+
+ #results {
+    margin-left: 5%;
+    margin-right:5%;
+     text-align: center;
+     margin-bottom: 5%;
+ }
+
+footer{
+    background-color: $navbar;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+
+}
 
